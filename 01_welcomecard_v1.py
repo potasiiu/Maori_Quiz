@@ -11,3 +11,5 @@ print()
 name = input("What is your name? ")  # Ask for the user's name
 print(f"{top_bottom}")
 age = int(input("What is your age? "))  # Ask for the user's age
+print()
+print(f"Welcome {name} ({age}) to the Maori Quiz")
