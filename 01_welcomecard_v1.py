@@ -13,3 +13,11 @@ print(f"{top_bottom}")
 age = int(input("What is your age? "))  # Ask for the user's age
 print()
 print(f"Welcome {name} ({age}) to the Maori Quiz")
+# Asks the user if they have played before
+played_before = input("Have you played the game before? ")
+if played_before == "yes" or played_before == "y":
+    print("continue")
+elif played_before == "no" or played_before == "y":
+    print("shows instructions")
+else:
+    print("<ERROR> Please input Y/N")
