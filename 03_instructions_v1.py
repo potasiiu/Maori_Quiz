@@ -3,10 +3,10 @@ This is the component for the instructions
 for teaching the user how this program works"""
 
 # The instructions for the quiz
-instructions = print("When the quiz begins, a question on the Maori Months will be shown.\n"
-                     "Then enter the answer to the question.\n"
-                     "If you get all of the questions right, you will get a prize!\n"
-                     "Good Luck.")
+print("When the quiz begins, a question on the Maori Months will be shown.\n"
+      "Then enter the answer to the question.\n"
+      "If you get all of the questions right, you will get a prize!\n"
+      "Good Luck.")
 loop = ""
 while loop != "x":
     Continue = input("Press <Enter> to continue")
@@ -15,4 +15,3 @@ while loop != "x":
         loop = "x"
     else:
         print("Please just press enter")
-
