@@ -14,4 +14,4 @@ while loop != "x":
         print("program continues")
         loop = "x"
     else:
-        print("Please just press enter")
+        print("Invalid input. Please Try Again")

@@ -11,6 +11,8 @@ def instructions(proceed_text):
     # The instructions
     print("When the quiz begins, a question on the Maori Months will be shown.\n"
           "Then enter the answer to the question.\n"
+          "There will be 10 questions\n"
+          "Capitalization is very important. Remember that!\n"
           "If you get all of the questions right, you will get a prize!\n"
           "Good Luck.")
     # Asks the user to press the Enter Key to continue
