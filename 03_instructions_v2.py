@@ -12,7 +12,6 @@ def instructions():
           "Then enter the answer to the question.\n"
           "If you get all of the questions right, you will get a prize!\n"
           "Good Luck.")
-    Continue = input("Press <Enter> to continue")
 
 
 # Main Routine
