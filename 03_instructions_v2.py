@@ -26,4 +26,6 @@ def instructions(proceed_text):
 
 
 # Main Routine
-instructions("Press <Enter> to continue")
+abc = input("B")
+if abc == "B":
+    instructions("Press <Enter> to continue")
