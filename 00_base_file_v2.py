@@ -128,6 +128,7 @@ while play != "x":
     play_again = yes_no("Would you like to play again (Y/N)? ")
 
     if play_again == "Yes":
+        print("*" * 50)
         maoriquiz()
     elif play_again == "No":
         print(f"Thanks for playing,\n"
