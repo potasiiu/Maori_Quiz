@@ -1,5 +1,5 @@
-"""00_base_file_v2.py
-This is the base file and the addition of a play again code in the main routine"""
+"""MQ_Final_Version.py
+This is the final version and completed version of the code"""
 
 
 def welcomecard():
