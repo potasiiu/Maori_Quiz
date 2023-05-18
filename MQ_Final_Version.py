@@ -82,6 +82,7 @@ def maoriquiz():
     points = 0
 
     for i in range(10):
+        print("*" * 50)
         question = random.choice(list(questions.keys()))
         answer = input(question)
         if answer.lower() == questions[question].lower():
